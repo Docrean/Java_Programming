@@ -24,6 +24,22 @@ public class PrimitiveDataTypesIntro {
 
         //salary is $95000
 
+        int s = 95000; // PREFERRED
+
+        System.out.println(s);
+
+        // int n = 9999999999;
+        long n =  9999999999l; // compiler defaults to int which is out of this range even though within longs range
+                                //add L or l to signify
+
+        // gpa is 3.5
+        double gpa = 3.5; //preferred datatype for decimals
+
+        float gpa2 = 3.5F; //double is preferred. set float with F or f.
+
+
+
+
 
 
     }
