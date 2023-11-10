@@ -40,16 +40,28 @@ public class PrimitiveDataTypesIntro2 {
 
         // boolean r1 = 123;
         // boolean r2 = 2.5;
-            // boolean r3 = "Java"; //compile because not true or false or comparing true false
+        // boolean r3 = "Java"; //compile because not true or false or comparing true false
 
-            boolean r4 = true;
-            boolean r5 = false;
+        boolean r4 = true;
+        boolean r5 = false;
 
-            boolean r6 = 100 > 10; // true
-            boolean r7 = 0 < -1; // false
+        boolean r6 = 100 > 10; // true
+        boolean r7 = 0 < -1; // false
 
         System.out.println(r6);
         System.out.println(r7);
+
+
+        //Example variable definitions
+        /*
+        byte inches;
+        int speed;
+        short month;
+        float saleCommission;
+        double distance
+        */
+
+
 
 
     }
