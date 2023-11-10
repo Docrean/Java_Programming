@@ -4,12 +4,18 @@ public class VariableNamingRules {
 
     public static void main(String[] args) {
 
-    /*
-    Variable name rules:
-    1. Unique all the time
-    2. readable, understandable, and meaningful
-    3. MUST BE UNIQUE
-    */
+        /*
+        Variable name rules:
+        1. Unique all the time
+        2. readable, understandable, and meaningful
+        3. MUST BE UNIQUE
+            PRIMITIVES:
+            int: default for integer numbers
+            double: for decimal numbers
+            char: for single character ''
+            boolean: for True or False expressions
+            String: sequence of characters, surrounded by double quote ("")
+        */
 
         // age of student is 28
         // salary of person is $10000
