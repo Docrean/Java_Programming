@@ -25,7 +25,7 @@ public class VariableNamingRules {
 
         //int age = 32; //variable name must be UNIQUE
 
-        /*poop
+        /*
         * first character: a-z, A-Z, _ or $ (no numbers)
         * after first character: a-z, A-Z, _ or $ (no numbers)
         * CANNOT INCLUDE SPACES
