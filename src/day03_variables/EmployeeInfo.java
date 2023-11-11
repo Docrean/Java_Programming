@@ -2,7 +2,8 @@ package day03_variables;
 
 public class EmployeeInfo {
 
-    public static void main(String[] args) {
+    public static
+    void main(String[] args) {
 
         /*
         System.out.println("Aaron");
@@ -51,6 +52,7 @@ public class EmployeeInfo {
         System.out.println("employeeId = " + employeeId);
         System.out.println("jobTitle = " + jobTitle);
         System.out.println("salary = " + salary);
+
 
 
 
