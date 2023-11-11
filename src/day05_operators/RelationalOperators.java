@@ -73,7 +73,7 @@ public class RelationalOperators {
 
         System.out.println("--------------------------");
 
-        System.out.println("Java" <= "c#"); //>, <, >=, <= THESE ONLY CAN USE FOR NUMBERS
+        //System.out.println("Java" <= "c#"); //>, <, >=, <= THESE ONLY CAN USE FOR NUMBERS
                                             //that is why compiler in this case
         System.out.println('a' > 'b');
         //                  65   66
