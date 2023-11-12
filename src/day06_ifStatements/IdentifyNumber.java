@@ -18,6 +18,7 @@ public class IdentifyNumber {
         System.out.println(number + " is negaive number: " + isNegative);
         System.out.println(number + " is zero: " + isZero);
 
+        //YES
     }
 }
 
