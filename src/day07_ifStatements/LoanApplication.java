@@ -1,7 +1,8 @@
 package day07_ifStatements;
 
 public class LoanApplication {
-
+ //1. declare data type, variable, and value
+    // 2. declare string result "" for each code fragment (for 1 print statement)
     public static void main(String[] args) {
 
         int salary = 30000,
