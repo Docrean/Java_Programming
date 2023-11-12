@@ -31,7 +31,8 @@ public class Switch_Intro {
         System.out.println("----------------------------------");
 */
         switch (grade) {
-
+            //IF CASE IS STRING NEEDS TO BE STRING
+            //IF CASE IS CHAR THE CASE BLOCKS NEED TO BE CHAR
             case 'B':
                 System.out.println("Great Job");
                 break;
