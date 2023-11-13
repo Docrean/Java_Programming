@@ -18,5 +18,7 @@ public class PrintVariable1 {
         System.out.println(gender);
         System.out.println(IsRetired);
         System.out.println(IsNotRetired);
+
+
     }
 }
