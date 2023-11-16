@@ -13,7 +13,7 @@ public class CarInfo {
                 Price = 19000;
 
         System.out.println(year + " " + make + " " + model
-                    + ", " + miles + " miles," + "");
+                    + ", " + miles + " miles, " + color + ", $" + Price+ ".");
 
     }
 }
