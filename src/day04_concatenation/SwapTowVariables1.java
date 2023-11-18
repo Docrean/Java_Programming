@@ -4,7 +4,17 @@ public class SwapTowVariables1 {
 
     public static void main(String[] args) {
 
-        /*
+            int x = 10;
+            int y = 15;
+
+
+
+
+    }
+
+}
+
+/*
 Create a class named SwapTwoVariables1 and declare the following variables:
             x
             y
@@ -17,7 +27,3 @@ Create a class named SwapTwoVariables1 and declare the following variables:
                   x = 15
                   y = 20
  */
-
-    }
-
-}
