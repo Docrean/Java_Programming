@@ -26,6 +26,21 @@ public class SwapTowVariables1 {
         System.out.println("i = " + i);
 
 
+        int f = 10;
+        int g = 40;
+        int n = f;
+                //how to make f = g and g = f using n?
+                //1. declare computer to think f = g = 40
+        f = g;  //Computer now thinks f = g = 40
+                /*how to make g = 10 when f is now 40?
+                       --think--n is declared as f originally which was 10
+                  2.tell computer g is now equal to n
+                       --so now g = n = original f = 10
+                    */
+        g = n;
+
+        System.out.println("f = " + f);
+        System.out.println("g = " + g);
     }
 
 }
