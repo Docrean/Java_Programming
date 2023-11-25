@@ -14,8 +14,8 @@ public class IfStatementsIntro {
         if( isPositive ){
             System.out.println(number +" is positive number");
         }                //SINCE code fragment INSIDE IF BLOCK IT WILL ONLY RUN from IF CONDITION
-                        //IF TRUE, IT GETS EXECUTED. ITS NOT, SO NO EXECUTION
-                        //want this to be executed only if IF CONDITION IS TRUE
+                        //IF TRUE, IT GETS EXECUTED. IF NOT TRUE, SO NO EXECUTION
+                        //want this to be executed only if the IF CONDITION IS TRUE
                         //will print -100 is positive if OUTSIDE IF BLOCK
         if( isNegative ){
             System.out.println(number +" is negative number");
