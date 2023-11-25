@@ -1,4 +1,4 @@
-package Reps;
+package Variable_Scanner_REPLITS;
 
 public class Phone_Number {
 
