@@ -4,11 +4,20 @@ public class Print_Var_6 {
 
     public static void main(String[] args) {
 
-        int num = 2;
-        double cost = 5;
+        int numb = 2,
+                numb2 = -10,
+                numb3 = 1243;
+        double costs = 5,
+                costs2 = 4,
+                costs3 = 5.3;
 
-        System.out.println("num = " + num);
-        System.out.println("cost = " + cost);
+
+        System.out.println("num = " + numb);
+        System.out.println("cost = " + costs);
+        System.out.println("numb2 = " + numb2);
+        System.out.println("costs2 = " + costs2);
+        System.out.println("numb3 = " + numb3);
+        System.out.println("costs3 = " + costs3);
     }
 }
 
