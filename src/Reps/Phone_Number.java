@@ -5,10 +5,16 @@ public class Phone_Number {
     public static void main(String[] args) {
 
 
-        int areaCode = 222,
-                localNumber = 3334444;
+        int AreaCode = 222,
+                LocalNumber = 3334444,
+                AreaCode2 = 111,
+                LocalNumber2 = 123456,
+                AreaCode3 = 555,
+                LocalNumber3 = 234567;
 
-        System.out.println("Calling number " + "(" + areaCode + ")" + "-" + localNumber);
+        System.out.println("Calling number " + "(" + AreaCode + ")" + "-" + LocalNumber);
+        System.out.println("Calling number " + "(" + AreaCode2 + ")" + "-" + LocalNumber2);
+        System.out.println("Calling number " + "(" + AreaCode3 + ")" + "-" + LocalNumber3);
 
     }
 }
