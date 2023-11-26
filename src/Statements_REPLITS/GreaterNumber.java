@@ -32,8 +32,19 @@ public class GreaterNumber {
             System.out.println(d + " is great");
         }
 
+        int g = 100,
+                i = 900;
+
+        if (g > i) {
+            System.out.println(i + " is greater");
+        } else {
+            System.out.println(g + " is lesser");
+        }
+
+        }
     }
-}
+
+
 
 /*
 * ### Use an `if statement` to determine if the given number `a` is greater than the other given number `b`.
