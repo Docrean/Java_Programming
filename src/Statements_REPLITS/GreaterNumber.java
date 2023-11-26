@@ -35,14 +35,22 @@ public class GreaterNumber {
         int g = 100,
                 i = 900;
 
-        if (g > i) {
+        if (g < i) {
             System.out.println(i + " is greater");
-        } else {
-            System.out.println(g + " is lesser");
-        }
+            //Won't run IF FALSE.
+
+            if (g > i) {
+                System.out.println(g + " is greater");
+                //WILL EXECUTE SINCE TRUE
+            }
 
         }
     }
+
+}
+
+
+
 
 
 
