@@ -21,8 +21,8 @@ public class GreaterNumber {
             System.out.println(c + " is greater");
         } else {
             System.out.println(d + " is greater");
-        }
-
+        }       //Else will return the true value IF IF is false
+                //WON'T COMPILE IF FALSE
         int e = 4,
                 f = 3;
 
@@ -30,7 +30,7 @@ public class GreaterNumber {
             System.out.println(e + " is great");
         } else {
             System.out.println(d + " is great");
-        }
+        }    //Else will return the true value IF IF is false
 
         int g = 100,
                 i = 900;
