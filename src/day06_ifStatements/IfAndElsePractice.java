@@ -10,7 +10,10 @@ public class IfAndElsePractice {
             System.out.println("Failed");
         } else {
             System.out.println("Passed");
-        }
+        }   /*
+            If resolves to TRUE first code block is executed*****
+            if resolves to false, second code block is run instead****
+            */
 
             int testScore = 50;
 
