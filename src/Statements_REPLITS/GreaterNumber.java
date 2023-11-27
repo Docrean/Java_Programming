@@ -12,7 +12,17 @@ public class GreaterNumber {
             System.out.println(a + " is greater");
         } else {
             System.out.println(b + " is greater");
-        }
+        }    /*
+            IF WANTING TO WRITE SINGLE IF than have to
+            write opposite operator (if a > b, then a < b)
+
+            if (a > b) {
+            System.out.println(a + " is greater");
+
+            if (a < b) {
+            System.out.println(b + " is greater");
+            */
+
 
         int c = 2,
                 d = 3;
