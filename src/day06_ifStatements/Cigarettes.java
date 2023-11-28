@@ -10,7 +10,7 @@ public class Cigarettes {
             System.out.println("You are eligible to buy cigarettes");
         }
 
-                //needs to be || operator since can't be less than 21 and greather than 100 at same time
+                //needs to be || operator since can't be less than 21 and greater than 100 at same time
         if(age < 21 || age > 100){
             System.err.println("You are not eligible to buy cigarettes");
         }
