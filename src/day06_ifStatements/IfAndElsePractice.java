@@ -34,5 +34,12 @@ public class IfAndElsePractice {
             }
             }
 
+        int e = 10,
+                f = 2;
+
+        if (e > f){
+            System.out.println(e + " is greater");
         }
-    }
+
+        }
+}
