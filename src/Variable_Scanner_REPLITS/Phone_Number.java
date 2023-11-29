@@ -5,16 +5,16 @@ public class Phone_Number {
     public static void main(String[] args) {
 
 
-        int AreaCode = 222,
-                LocalNumber = 3334444,
-                AreaCode2 = 111,
-                LocalNumber2 = 123456,
-                AreaCode3 = 555,
-                LocalNumber3 = 234567;
+        //DO NOT TOUCH THESE LINE/LINES.
+        // Variables are already declared and given
+        Scanner scan=new Scanner(System.in);
+        int areaCode=scan.nextInt();
+        int localNumber=scan.nextInt();
 
-        System.out.println("Calling number " + "(" + AreaCode + ")" + "-" + LocalNumber);
-        System.out.println("Calling number " + "(" + AreaCode2 + ")" + "-" + LocalNumber2);
-        System.out.println("Calling number " + "(" + AreaCode3 + ")" + "-" + LocalNumber3);
+        //WRITE YOUR CODE BELOW:
+        //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
+        //WRITE the STRING TEXT num = and cost = then concat the scanner variables
+        System.out.println("Calling number (" + areaCode + ")-" + localNumber);
 
     }
 }

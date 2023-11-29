@@ -4,14 +4,15 @@ public class Print_Var_7 {
 
     public static void main(String[] args) {
 
-        String topic3 = "Java",
-                topic4 = "SQL",
-                topic5 = "Cucumber",
-                topic6 = "RestAssured" ;
+        //DO NOT TOUCH THESE LINE/LINES.
+        // Variables are already declared and given
+        Scanner scan = new Scanner(System.in);
+        String topic1 = scan.nextLine();
+        String topic2 = scan.nextLine();
 
+        //WRITE YOUR CODE BELOW THIS LINE:
 
-        System.out.println("I will learn \"" + topic3 + "\" and \"" + topic4 + "\" at Cydeo");
-        System.out.println("I will learn \"" + topic5 + "\" and \"" + topic6 + "\" at Cydeo");
+        System.out.println("I will learn \"" + topic1 + "\" and \"" + topic2 + "\" at Cydeo.");
 
     }
 

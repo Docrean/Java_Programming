@@ -6,11 +6,24 @@ public class Time {
 
     public static void main(String[] args) {
 
-        int hour = 12,
-                minute = 24,
-                second = 33;
+        //1. WRITE YOUR CODE HERE:
 
-        String amOrPm = "PM";
+        int hour, minute, second;
+        String amOrPm;
+
+
+        //DO NOT TOUCH BELOW LINES.
+        Scanner sc = new Scanner(System.in);
+        hour   = sc.nextInt();
+        minute = sc.nextInt();
+        second = sc.nextInt();
+        amOrPm = sc.next();
+        //#############################
+        //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
+        //DECLARE VARIABLES FOR SCANNER CONTAINING DATA
+        //SCANNER THEN DRAWS THE CONTAINING DATA
+        //2. WRITE YOUR CODE HERE:
+
 
         System.out.println(hour + ":" + minute + ":" + second + " " + amOrPm);
 
