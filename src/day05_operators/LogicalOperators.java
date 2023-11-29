@@ -38,7 +38,8 @@ public class LogicalOperators {
         boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
         //ANY ONE TRUTH OUTPUTS TRUE FOR LOGICAL ||
         System.out.println(passedTheExam);
-
+        //use Or. Grades are not same
+        //If && then FALSE. NO GRADES EQUAL. POISONED
         //Logical or || 75% true
         /*
         II: either (ALL TRUE IF MEDICATED)
@@ -58,16 +59,6 @@ public class LogicalOperators {
                                         // || for Yes OR(||) No
 
         System.out.println(validAnswer);
-
-        System.out.println("-----------------------------------------");
-
-        char grade = 'B';
-
-        boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
-                                            //use Or. Grades are not same
-                                            //If && then FALSE. NO GRADES EQUAL. POISONED
-
-        System.out.println(passedTheExam);
 
         System.out.println("-----------------------------------------");
 
