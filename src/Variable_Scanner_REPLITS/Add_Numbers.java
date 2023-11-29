@@ -8,11 +8,13 @@ public class Add_Numbers {
     public static void main(String[] args) {
         //WRITE CODE BELOW
         /*
-         * 1. Create scanner object
-         * Scanner input = new Scanner(System.in);
-         * int num1 = scan.nextInt();
-         * int num2 = scan.nextInt();
-         * int num3 = scan.nextInt();
+         Scanner scan = new Scanner(System.in);
+    System.out.println("Enter 3 numbers:");
+         int num1 = scan.nextInt();
+         int num2 = scan.nextInt();
+         int num3 = scan.nextInt();
+         int sum = num1 + num2 + num3; //no concat just nums
+    System.out.println("Sum of numbers: " + sum);
          * */
 
     }
