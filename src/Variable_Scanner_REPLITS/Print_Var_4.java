@@ -4,16 +4,17 @@ public class Print_Var_4 {
 
     public static void main(String[] args) {
 
-        String code = "Java",
-                food = "Apple",
-                test = "Testing",
-                sdet = "SDET";
+        Scanner input = new Scanner(System.in);
+        String word = input.nextLine();
+        //WRITE YOUR CODE BELOW:
+        /*
+        * Scanner: AVOIDING HARDCODING: about reading information from outside the hardcoding...SCANNER BEING THE WAY.
+			REPLIT: Inputs are different...so we can test the code based on the inputs.
+			//Data is stored in the scanner variable...so writing the print statement will tell the compiler to run
+			* the scanner variable containing the data...so tons of hardcode not needed.
+        * */
 
-
-        System.out.println("Today's word of the day is: " + code);
-        System.out.println("Today's word of the day is: " + food);
-        System.out.println("Today's word of the day is: " + test);
-        System.out.println("Today's word of the day is: " + sdet);
+        System.out.println("Today's word of the day is: " + word);
 
 
     }
