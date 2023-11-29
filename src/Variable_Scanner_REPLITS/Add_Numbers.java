@@ -10,14 +10,11 @@ public class Add_Numbers {
         /*
          * 1. Create scanner object
          * Scanner input = new Scanner(System.in);
+         * int num1 = scan.nextInt();
+         * int num2 = scan.nextInt();
+         * int num3 = scan.nextInt();
          * */
 
-        char grade = 'B';
-        //logical && or ||?
-        //not comparing values (&&)...its either or...so logical or ||
-        boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
-
-        System.out.println(passedTheExam);
     }
 }
 

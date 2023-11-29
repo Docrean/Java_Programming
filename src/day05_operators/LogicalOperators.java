@@ -32,6 +32,13 @@ public class LogicalOperators {
 
         System.out.println("----------------------------------------------------------");
 
+        char grade = 'B';
+        //logical && or ||?
+        //not comparing values (&&)...its either or...so logical or ||
+        boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
+        //ANY ONE TRUTH OUTPUTS TRUE FOR LOGICAL ||
+        System.out.println(passedTheExam);
+
         //Logical or || 75% true
         /*
         II: either (ALL TRUE IF MEDICATED)
