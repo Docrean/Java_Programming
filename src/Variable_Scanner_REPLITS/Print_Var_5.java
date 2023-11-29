@@ -6,13 +6,13 @@ public class Print_Var_5 {
 
         //DO NOT TOUCH THESE LINE/LINES.
         // Variables are already declared and given
-        Scanner scan = new Scanner(System.in);
-        int first = scan.nextInt(); // do not change
-        int second = scan.nextInt(); // do not change
+        //Scanner scan = new Scanner(System.in);
+        //int first = scan.nextInt(); // do not change
+        //int second = scan.nextInt(); // do not change
 
         //WRITE YOUR CODE BELOW:
 
-        System.out.println("first is " + first + " and second is " + second);
+        //System.out.println("first is " + first + " and second is " + second);
         //Again...scanner variables are declared. Write the print statement using the scanner variables to PASS REPLIT
     }
 }

@@ -1,7 +1,7 @@
 package Variable_Scanner_REPLITS;
 
-import java.sql.SQLOutput;
-import java.util.Scanner;
+//import java.sql.SQLOutput;
+//import java.util.Scanner;
 
 public class Add_Numbers {
 

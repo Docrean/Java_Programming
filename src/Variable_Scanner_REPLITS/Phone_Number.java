@@ -7,14 +7,14 @@ public class Phone_Number {
 
         //DO NOT TOUCH THESE LINE/LINES.
         // Variables are already declared and given
-        Scanner scan=new Scanner(System.in);
-        int areaCode=scan.nextInt();
-        int localNumber=scan.nextInt();
+        //Scanner scan=new Scanner(System.in);
+       // int areaCode=scan.nextInt();
+        //int localNumber=scan.nextInt();
 
         //WRITE YOUR CODE BELOW:
         //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
         //WRITE the STRING TEXT num = and cost = then concat the scanner variables
-        System.out.println("Calling number (" + areaCode + ")-" + localNumber);
+        //System.out.println("Calling number (" + areaCode + ")-" + localNumber);
 
     }
 }

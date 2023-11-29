@@ -8,16 +8,16 @@ public class Time {
 
         //1. WRITE YOUR CODE HERE:
 
-        int hour, minute, second;
-        String amOrPm;
+        //int hour, minute, second;
+        //String amOrPm;
 
 
         //DO NOT TOUCH BELOW LINES.
-        Scanner sc = new Scanner(System.in);
-        hour   = sc.nextInt();
-        minute = sc.nextInt();
-        second = sc.nextInt();
-        amOrPm = sc.next();
+        //Scanner sc = new Scanner(System.in);
+        //hour   = sc.nextInt();
+        //minute = sc.nextInt();
+        //second = sc.nextInt();
+        //amOrPm = sc.next();
         //#############################
         //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
         //DECLARE VARIABLES FOR SCANNER CONTAINING DATA
@@ -25,7 +25,7 @@ public class Time {
         //2. WRITE YOUR CODE HERE:
 
 
-        System.out.println(hour + ":" + minute + ":" + second + " " + amOrPm);
+        //System.out.println(hour + ":" + minute + ":" + second + " " + amOrPm);
 
     }
 }

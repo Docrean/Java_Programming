@@ -5,13 +5,13 @@ public class Print_Var_6 {
     public static void main(String[] args) {
 
         //Scanner in = new Scanner(System.in);
-        int num = in.nextInt();
-        double cost = in.nextDouble();
+        //int num = in.nextInt();
+        //double cost = in.nextDouble();
 
         //WRITE YOUR CODE BELOW THIS LINE:
 
-        System.out.println("num = " + num);
-        System.out.println("cost = " + cost);
+        //System.out.println("num = " + num);
+        //System.out.println("cost = " + cost);
     }       //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
             //WRITE the STRING TEXT num = and cost = then concat the scanner variables
 }

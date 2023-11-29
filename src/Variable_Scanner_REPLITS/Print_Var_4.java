@@ -4,8 +4,8 @@ public class Print_Var_4 {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        String word = input.nextLine();
+        //Scanner input = new Scanner(System.in);
+        //String word = input.nextLine();
         //WRITE YOUR CODE BELOW:
         /*
         * Scanner: AVOIDING HARDCODING: about reading information from outside the hardcoding...SCANNER BEING THE WAY.
@@ -14,7 +14,7 @@ public class Print_Var_4 {
 			* the scanner variable containing the data...so tons of hardcode not needed.
         * */
 
-        System.out.println("Today's word of the day is: " + word);
+        //System.out.println("Today's word of the day is: " + word);
 
 
     }
