@@ -4,17 +4,16 @@ public class Print_Var_5 {
 
     public static void main(String[] args) {
 
-        int ferst = 55,
-                sec = 123,
-                farst = -124,
-                secon = -500,
-                furst = 923,
-                seconds = 33223;
+        //DO NOT TOUCH THESE LINE/LINES.
+        // Variables are already declared and given
+        Scanner scan = new Scanner(System.in);
+        int first = scan.nextInt(); // do not change
+        int second = scan.nextInt(); // do not change
 
-        System.out.println("first is " + ferst + " and second is " + sec);
-        System.out.println("first is " + farst + " and second is " + secon);
-        System.out.println("first is " + furst + " and second is " + seconds);
+        //WRITE YOUR CODE BELOW:
 
+        System.out.println("first is " + first + " and second is " + second);
+        //Again...scanner variables are declared. Write the print statement using the scanner variables to PASS REPLIT
     }
 }
 

@@ -4,21 +4,16 @@ public class Print_Var_6 {
 
     public static void main(String[] args) {
 
-        int numb = 2,
-                numb2 = -10,
-                numb3 = 1243;
-        double costs = 5,
-                costs2 = 4,
-                costs3 = 5.3;
+        //Scanner in = new Scanner(System.in);
+        int num = in.nextInt();
+        double cost = in.nextDouble();
 
+        //WRITE YOUR CODE BELOW THIS LINE:
 
-        System.out.println("num = " + numb);
-        System.out.println("cost = " + costs);
-        System.out.println("numb2 = " + numb2);
-        System.out.println("costs2 = " + costs2);
-        System.out.println("numb3 = " + numb3);
-        System.out.println("costs3 = " + costs3);
-    }
+        System.out.println("num = " + num);
+        System.out.println("cost = " + cost);
+    }       //PRINT SCANNER VARIABLE CONTAINING THE INPUT DATA
+            //WRITE the STRING TEXT num = and cost = then concat the scanner variables
 }
 
 /*
