@@ -38,11 +38,11 @@ public class Add_Numbers {
 
 - Finally, print the following:
 
-```
- Sum of numbers: $ValueOfSum
-```
 
-```
+ Sum of numbers: $ValueOfSum
+
+
+
 Ex:
 
     Enter 3 numbers:
@@ -50,7 +50,7 @@ Ex:
       6
       2
     Sum of numbers: 12
-```
+
 
 Main topics: variables, primitive datatypes, Scanner, concatenation, operators
 * */
