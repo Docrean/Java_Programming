@@ -6,6 +6,7 @@ package Variable_Scanner_REPLITS;
 public class Add_Numbers {
 
     public static void main(String[] args) {
+
         //WRITE CODE BELOW
         /*
          Scanner scan = new Scanner(System.in);
