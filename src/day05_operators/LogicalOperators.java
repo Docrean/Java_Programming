@@ -5,7 +5,7 @@ import java.sql.SQLOutput;
 public class LogicalOperators {
 
     public static void main(String[] args) {
-         //Logical AND && 75% false
+         //Logical && is 75 percent false.
         /*
         &&: both (ALL FALSE IF POISONED)
         expr 1       expr 2          Returned value
@@ -26,7 +26,7 @@ public class LogicalOperators {
                     //                 true       &&     false          &&   true   --->false (poisoned)
                     //Use logical && since BOTH value NEED MET for BOOLEAN
                     //Since this is logical && only TRUE if BOTH VALUES MET for LOAN
-
+                    //ANY ONE FALSE OUTPUTS FALSE FOR LOGICAL &&
         System.out.println(eligibleForLoan);
 
 
@@ -38,7 +38,8 @@ public class LogicalOperators {
         boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
         //ANY ONE TRUTH OUTPUTS TRUE FOR LOGICAL ||
         System.out.println(passedTheExam);
-
+        //Use Logical OR ||: Grades are not the same
+        //If && then FALSE. NO GRADES EQUAL. POISONED
         //Logical or || 75% true
         /*
         II: either (ALL TRUE IF MEDICATED)
@@ -54,20 +55,10 @@ public class LogicalOperators {
                                  //If "yes", then COMPILE ture since boolean answer "yes"
                                     //false         //false   --->Compiles false
         boolean validAnswer = answer == "yes" || answer == "no";
-                                        //can't use &&..Yes never equal to No
+                                        //Can't use &&. Yes never equal to No
                                         // || for Yes OR(||) No
 
         System.out.println(validAnswer);
-
-        System.out.println("-----------------------------------------");
-
-        char grade = 'B';
-
-        boolean passedTheExam = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D';
-                                            //use Or. Grades are not same
-                                            //If && then FALSE. NO GRADES EQUAL. POISONED
-
-        System.out.println(passedTheExam);
 
         System.out.println("-----------------------------------------");
 

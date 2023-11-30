@@ -11,7 +11,7 @@ public class RelationalOperators {
 
         System.out.println( a > b );
         System.out.println( a < b );
-        //what if don't want print expression?
+        //what if you don't want print expression?
 
         boolean aIsGreater = a > b;
         boolean aIsLesser = a < b;
@@ -49,11 +49,11 @@ public class RelationalOperators {
         System.out.println("--------------------------");
 
         // int score =
-        //can't declare new var with same name
-        //so.....
+        //can't declare new var with the same name
+        //so…
 
         score = 48;
-      //assignment operator = cab assign new value to variable (although already used)
+      //assignment operator = can assign new value to variable (although already used)
 
         boolean failed = score > 60;
         boolean ifFailed = score <= 60;
@@ -68,7 +68,7 @@ public class RelationalOperators {
 
         System.out.println(95 <= 100); //true
         System.out.println(100 <= 100); //false
-                //is 100 less than? or equal to 100?-->true since =
+                //is 100 less than or equal to 100?-->true since =
                 //with <= & >= only one condition need met for TRUE
 
         System.out.println("--------------------------");
