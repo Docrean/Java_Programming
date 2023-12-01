@@ -29,7 +29,7 @@ public class Main {
     }else if (num < 0){
      System.out.println("negative");
     }else                        //Don't need to check if == 0..so no else if just else
-     System.out.println("zero");
+     System.out.println("zero"); //else just 0 since num is not < or > to 0.
 
 
 
