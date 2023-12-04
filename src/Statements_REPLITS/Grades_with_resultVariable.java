@@ -26,7 +26,7 @@ class Main {
       }else {             //finish with else. 60 is lower than previous
          result = "fail";   //statement...so no else if needed...just "else fail"
       }
-       //since varaible result than will need to print.
+       //since variable result than will need to print.
         //only need one print statement for one variable container
 
       System.out.println(result); just need 1 print statement for the result variable
