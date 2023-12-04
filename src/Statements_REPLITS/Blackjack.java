@@ -10,7 +10,7 @@ public class Blackjack {
 
             double c = 10;
             int b;
-            b = (int) d; //explicit....TYPE CASTING
+            b = (int) c; //explicit....TYPE CASTING
         /*
         * import java.util.*;
 class Main {
