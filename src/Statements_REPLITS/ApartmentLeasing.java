@@ -5,7 +5,7 @@ public class ApartmentLeasing {
     public static void main(String[] args) {
 
         /*
-        * import java.util.*
+        * import java.util.* r
         public static void main(String[] args) {
 
     //DO NOT TOUCH BELOW:
