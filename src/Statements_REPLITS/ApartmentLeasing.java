@@ -5,10 +5,8 @@ public class ApartmentLeasing {
     public static void main(String[] args) {
 
         /*
-        * import java.util.*;
-
-public class Main {
-  public static void main(String[] args) {
+        * import java.util.*
+        public static void main(String[] args) {
 
     //DO NOT TOUCH BELOW:
     Scanner scan = new Scanner(System.in);
