@@ -4,6 +4,13 @@ public class Blackjack {
 
     public static void main(String[] args) {
 
+            double d;   //done implicitly.
+            int i = 10;
+            d = i;
+
+            double c = 10;
+            int b;
+            b = (int) d; //explicit....TYPE CASTING
         /*
         * import java.util.*;
 class Main {
