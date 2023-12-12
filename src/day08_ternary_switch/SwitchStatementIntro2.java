@@ -6,7 +6,7 @@ public class SwitchStatementIntro2 {
 
         int n = 25;
 
-        switch(n){
+        switch (n) {
 
             case 1:
                 System.out.println("Monday");

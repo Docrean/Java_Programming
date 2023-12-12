@@ -21,17 +21,17 @@ public class Elevator {
         }
 */
 
-        String  result = "Invalid floor";
+        String result = "Invalid floor";
 
-        if(floorNumber >= 1 && floorNumber <= 3){
+        if (floorNumber >= 1 && floorNumber <= 3) {
 
-            result = "Floor "+floorNumber+" is selected. Companies: ";
+            result = "Floor " + floorNumber + " is selected. Companies: ";
 
-            if(floorNumber == 1){
+            if (floorNumber == 1) {
                 result += "Lobby, Verizon, Starbucks";
-            }else if(floorNumber == 2){
+            } else if (floorNumber == 2) {
                 result += "Cydeo, NASA, Intelsat";
-            }else{
+            } else {
                 result += "Lyft, BofA, Stake house";
             }
 
