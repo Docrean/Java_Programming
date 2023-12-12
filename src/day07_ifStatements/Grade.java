@@ -8,7 +8,7 @@ public class Grade {
 
         String result = "";
 
-        if(grade == 'A'){
+        if (grade == 'A') {
             result = "Excellent";
         }
 
@@ -16,15 +16,15 @@ public class Grade {
             result = "Great job";
         }
 
-        if(grade == 'C'){
+        if (grade == 'C') {
             result = "Good";
         }
 
-        if(grade == 'D'){
+        if (grade == 'D') {
             result = "Passed";
         }
 
-        if(grade == 'F'){
+        if (grade == 'F') {
             result = "Failed";
         }
 
