@@ -20,8 +20,5 @@ public class StudentInfo2 {
         System.out.println("gender = " + gender);
         System.out.println("gpa = " + gpa);
 
-
-
-
     }
 }

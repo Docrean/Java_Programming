@@ -67,13 +67,6 @@ public class PrimitiveTypeCastings {
         double d1 = o;
 
 
-
-
-
-
-
     }
-
-
 
 }

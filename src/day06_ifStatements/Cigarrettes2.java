@@ -8,13 +8,10 @@ public class Cigarrettes2 {
 
         int age = 20;
 
-        if(age > 18); {
+        if (age > 18) ;
+        {
             System.out.println(age + " You are eligible to buy cigarettes");
-
-
-
-
         }
 
     }
-        }
+}

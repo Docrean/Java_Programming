@@ -37,11 +37,6 @@ public class PrimitiveDataTypesIntro {
 
         float gpa2 = 3.5F; //double is preferred. set float with F or f.
 
-
-
-
-
-
     }
 
 }

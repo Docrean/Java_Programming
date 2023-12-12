@@ -61,9 +61,6 @@ public class PrimitiveDataTypesIntro2 {
         double distance
         */
 
-
-
-
     }
 
 }
