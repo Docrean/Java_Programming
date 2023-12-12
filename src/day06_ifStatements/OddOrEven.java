@@ -8,13 +8,12 @@ public class OddOrEven {
 
         boolean isEven = number % 2 == 0;  //when we divide a number by 2, if remainder 0 then number is even
 
-  //    boolean isOdd = number % 2 != 0; //when we divide a number by 2, if remainder is NOT 0 then number is ODD
+        //    boolean isOdd = number % 2 != 0; //when we divide a number by 2, if remainder is NOT 0 then number is ODD
 
         boolean isOdd = !isEven; //if number is not even, than its odd
 
-        System.out.println(number + " is an even number: " + isEven );
-        System.out.println(number + " is an odd number: " + isOdd );
-
+        System.out.println(number + " is an even number: " + isEven);
+        System.out.println(number + " is an odd number: " + isOdd);
 
 
     }

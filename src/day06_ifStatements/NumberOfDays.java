@@ -7,22 +7,22 @@ public class NumberOfDays {
 
         int n = 1;
 
-        boolean has28Days =  n ==2; // if the months is 2 (Feb), then it has 28 days
+        boolean has28Days = n == 2; // if the months is 2 (Feb), then it has 28 days
         boolean has30Days = n == 4 || n == 6 || n == 9 || n == 11;
         boolean has31Days = !has28Days && !has30Days;
         // if the month does not have 28 days, and also does not have 30 days, then the month has 31 days
 
         String result = "";
 
-        if(has28Days){
+        if (has28Days) {
             result = "28 days";
         }
 
-        if(has30Days){
+        if (has30Days) {
             result = "30 days";
         }
 
-        if(has31Days){
+        if (has31Days) {
             result = "31 days";
         }
 
@@ -31,7 +31,6 @@ public class NumberOfDays {
 
     }
 }
-
 
 /*
 2. An integer variable named month is declared and given, Write a program that can print the number of days in the given month

@@ -22,15 +22,8 @@ public class MaximumNumber {
         }
 
 
-
-
-
     }
 }
-
-
-
-
 
 /*
 . Create a class named MaximumNumber.java
