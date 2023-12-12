@@ -77,7 +77,6 @@ Ex:
         * */
 
 
-
         int a = 1,
                 b = 2;
 
@@ -106,7 +105,7 @@ Ex:
         } else {
             System.out.println(d + " is greater");
         }       //Else will return the true value IF IF is false
-                //WON'T COMPILE IF FALSE
+        //WON'T COMPILE IF FALSE
         int e = 4,
                 f = 3;
 
