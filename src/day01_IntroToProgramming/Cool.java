@@ -6,6 +6,6 @@ public class Cool {
 
         System.out.println("I think being a programmer is cool");
 
-//boo
+//boo boo hoo
     }
 }
