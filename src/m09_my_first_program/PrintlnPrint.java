@@ -1,4 +1,4 @@
-package day01_IntroToProgramming;
+package m09_my_first_program;
 
 /*
 This class contains the examples of print & println
