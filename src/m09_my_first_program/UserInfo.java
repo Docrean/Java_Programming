@@ -7,7 +7,8 @@ public class UserInfo {
         System.out.println("First Name: Mike");
         System.out.println("Last Name: Smith");
         System.out.println();
-        System.out.println("Address: 100 Gallows Rd");
+        System.out.print("Address: ");
+        System.out.println("100 Gallows Rd");
         System.out.println("City: Fairfax");
         System.out.println("State: VA");
         System.out.println("Country: USA");
