@@ -7,9 +7,9 @@ public class FlightTIcket {
         String from = "London",
                 to = "Washington DC";
 
-        double ticketprice = 200;
+        double ticketPrice = 200;
 
-        System.out.println("From " + from + "to " + to + "is $" + ticketprice);
+        System.out.println("From " + from + " to " + to + " is $" + ticketPrice);
 
     }
 }
