@@ -45,6 +45,9 @@ public class PrimitiveDataTypesIntro2 {
         boolean r4 = true;
         boolean r5 = false;
 
+        System.out.println("r4 = " + r4);
+        System.out.println("r5 = " + r5);
+
         boolean r6 = 100 > 10; // true
         boolean r7 = 0 < -1; // false
 
