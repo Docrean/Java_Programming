@@ -13,5 +13,10 @@ public class AssignmentOperator {
 
         System.out.println("x = " + x);
 
+        x = x + 5;
+
+        System.out.println("x = " + x);
+
+
     }
 }
