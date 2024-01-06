@@ -4,6 +4,8 @@ public class IncrementDecrement {
 
     public static void main(String[] args) {
 
+        //pre-increment & post-decrement: value is incremented/decremented first then result computed
+
         int x = 5;
 
         int y = ++x; //pre-increment of x = 6 (immediately changes value)
@@ -18,7 +20,7 @@ public class IncrementDecrement {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        //post-increment & decrement:
+        //post-increment & decrement: value is computed first for result and then incremented/decremented
 
         int m = 5;
 
