@@ -4,7 +4,7 @@ public class IncrementDecrement {
 
     public static void main(String[] args) {
 
-        //pre-increment & post-decrement: value is incremented/decremented first then result computed
+        //pre-increment & pre-decrement: value is incremented/decremented immediately then result computed
 
         int x = 5;
 
@@ -20,17 +20,17 @@ public class IncrementDecrement {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        //post-increment & decrement: value is computed first for result and then incremented/decremented
+        //post-increment & post-decrement: current value is computed first as result and then incremented/decremented
 
         int m = 5;
 
-        int n = m++; // passes current operand n = 5 then m = 6 (2 steps with post operators)
+        int n = m++; // passes current operand so n = 5 as m then m = 6 (2 steps with post operators)
         System.out.println("m = " + m);
         System.out.println("n = " + n);
 
         int r = 10;
 
-        int t = r--; //passes current operand t = 10 then r = 9 (2 steps with post operators)
+        int t = r--; //passes current operand so t = 10 as r then r = 9 (2 steps with post operators)
         System.out.println("t = " + t);
         System.out.println("r = " + r);
 

@@ -1,6 +1,6 @@
 package m11_operators_part1;
 
-public class JD03Lab1Task1SwapValues {
+public class JD03OperatorsLab1Task1SwapValues {
 
     public static void main(String[] args) {
 
