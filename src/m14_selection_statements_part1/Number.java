@@ -4,7 +4,7 @@ public class Number {
 
     public static void main(String[] args) {
 
-        int num = 100;
+        int num = 0;
 
         if (num > 0){
             System.out.println("Number is positive"); //Benefit of multi branch-if first is true,
