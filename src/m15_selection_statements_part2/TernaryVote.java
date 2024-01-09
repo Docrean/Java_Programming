@@ -5,7 +5,6 @@ public class TernaryVote {
     public static void main(String[] args) {
 
         int age = 28;
-
         /*
         String result; //since one single if returning same value can put into ternary
         if (age >= 18) {
@@ -15,10 +14,9 @@ public class TernaryVote {
         }
 
         System.out.println(result);
-
         */
 
-        String result = (age >= 18) ? "you are eligible to vote" : "you are not eligible to vote";
+        String result2 = (age >= 18) ? "you are eligible to vote" : "you are not eligible to vote";
                                 //meaning: when age is true, assign first string to value result
                                         //otherwise (:) 2nd string value is assigned to string result
 
