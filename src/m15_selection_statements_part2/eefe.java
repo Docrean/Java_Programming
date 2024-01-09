@@ -4,7 +4,7 @@ public class eefe {
 
     public static void main(String[] args) {
 
-    string information = "can I vote in this election?";
+    String information = "can I vote in this election?";
 
         int yourAge = 18;
 
