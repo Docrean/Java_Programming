@@ -31,12 +31,14 @@ public class DoWhileLoop {
 
         int i = 0; //1. initialization
         do {
-            System.out.print(i + " ");
-            i++;//3. Code fragment
+            System.out.print(i + " "); //3. Code fragment
+            i++;//4. iteration (placed after code fragment to count to 10
         }while(i < 11); //2. condition
 
         //IF repetition IS UNKNOWN, don't need to set initilization or iterator just need condition
         //repeat the code fragments and at that time use while or do-while loops.
+
+
 
     }
 }
