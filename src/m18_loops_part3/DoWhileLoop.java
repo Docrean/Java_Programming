@@ -19,7 +19,7 @@ public class DoWhileLoop {
 
         do{ //DO BLOCK EXECUTED BEFORE CONDITION CHECKED
             System.out.println("Do-While loop: Hello World");
-        } while(n < 0); //false. WILL EXECUTE IF FALSE SINCE BLOCK EXECUTED BEFORE BOOLEAN
+        } while(n < 0); //false. WON'T EXECUTE IF FALSE SINCE BLOCK EXECUTED BEFORE BOOLEAN
 
         System.out.println("------------------------------------------");
 

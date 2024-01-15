@@ -4,7 +4,8 @@ public class ReturnMethods {
 
     public static void main(String[] args) {
 
-       int result = addNumbers(10,20); //Since this a return method now, can assign to variable
+
+      int result = addNumbers(10,20); //Since this a return method now, can assign to variable
         System.out.println(result);    //If not a return, Can't re-use sums nor store in variable
         //remember...void specifies that the function doesn't return a value
 
@@ -20,5 +21,8 @@ public class ReturnMethods {
      //needs to be match return value in method   //only option is to print data to console
     }
 
+
+
+    }
 }
                     //return method returns value at end where void does not
