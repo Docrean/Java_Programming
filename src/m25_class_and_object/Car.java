@@ -1,5 +1,7 @@
 package m25_class_and_object;
 
+import java.sql.SQLOutput;
+
 public class Car {
 
 
@@ -14,11 +16,30 @@ public class Car {
     public void drive(){
         System.out.println(make + " " + model + " is driving");
     }
-    public void print(){
-        System.out.println(make + " " + model + " is stopping");
+    public void stop(){System.out.println(make + " " + model + " is stopping");
     }
 
-    public void showCurrentSpeed(int currentSpeed, int speedLimit){}
+
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    public void showCurrentSpeed(int currentSpeed, int speedLimit){
+        if(currentSpeed <= speedLimit){
+            System.out.println(make + " is driving at " + currentSpeed + ", following the speed limit " + speedLimit);
+        } else{
+            System.out.println(make + " is driving at " + currentSpeed + ", following the speed limit " + speedLimit);
+        }
+
+
+
+    }
 }
 
 
