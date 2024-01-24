@@ -13,17 +13,21 @@ public class Dog { //This custom class used as custom template
     public void bark(){ //if adding static each object will not have a seperate copy meaning the method will belond to
         System.out.println(name + " is barking");//the class and not the object. Static method belonds to a class
     }   //instance methods belong to an object
-    public void eating(){
+    public void eat(){
         System.out.println(name + " is eating");
     }
     public void sleep(){
         System.out.println(name + " is sleeping");
     }
 
-    public String toString(){ //mosst of the time the toString method contains all the attributes of the correct class
-        return "name: " + name; //SHORTCUT: right click in the custom class (outside main method brackets but inside
-                                //custom class: click generate. look for toString. look for which attributes to include
-    }                           //if want to print all atributes can select all. for now, uncheck instert @override
+    public String toString() { //toaString will print all dog objects.
+        return "Dog{" +
+                "breed='" + breed + '\'' +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", age=" + age +
+                '}';
+    }
     //if getting Hashcode in console from dog object reference variable to the print statement is because
     //have not set the 2 string methods of the dog object.
     //(m25_class_and_object.Dog@7cca494b)--this shows if not string methods
