@@ -33,3 +33,19 @@ public class ScannerIntegers {
         System.out.println("fourthRun = " + fourthRun);
     }
 }
+
+    /*
+    Write a program that asks the user toe nter 4 numbers. Ue apporiate methods. Then close
+    the scanner and try to read any input again. Finally, print inputs as shown on the output.
+
+    Example:
+        Input: 10, 20, 30, 40
+        Output:
+
+            First number: 10
+            First number: 20
+            First number: 30
+            First number: 40
+
+
+     */
