@@ -1,8 +1,15 @@
 package m26_user_input_scanner;
 
+import java.util.Scanner;
+
 public class ScannerCharString {
 
     public static void main(String[] args) {
+
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a character:");
 
 
     }
