@@ -8,5 +8,28 @@ public class ScannerIntegers {
 
         Scanner input = new Scanner(System.in); //use in variable as input string
                                                 //System.in used for scanner object getting input during runtime
+
+        System.out.println("Enter your first number: ");
+        byte firstRun = input.nextByte(); //byte
+
+        System.out.println("Enter your second number: ");
+        short secondRun = input.nextShort(); //short
+
+        System.out.println("Enter your third number: ");
+        int thirdRun = input.nextInt(); //int(most preferred data type)
+
+        System.out.println("Enter your fourth number: ");
+        Long fourthRun = input.nextLong(); //long
+
+        input.close(); //need to close the scanner when done so won't be able to access keyboard anymore
+
+        //System.out.println("Enter your third number: ");
+        //int fifthRun = input.nextInt();
+                                            //(Won't work as scanner closed)
+
+        System.out.println("firstRun = " + firstRun);
+        System.out.println("secondRun = " + secondRun);
+        System.out.println("thirdRun = " + thirdRun);
+        System.out.println("fourthRun = " + fourthRun);
     }
 }
