@@ -10,7 +10,14 @@ public class ScannerCharString {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a character:");
+        char ch = input.next().charAt(0);         //use charAt(0) after next() to get char input
 
+        System.out.println("Would you like to continue?");
+        String answer = input.next();
+
+        input.close();
+
+        System.out.println();
 
     }
 }
