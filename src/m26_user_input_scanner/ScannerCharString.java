@@ -17,8 +17,8 @@ public class ScannerCharString {
 
         input.close();
 
-        System.out.println();
-
+        System.out.println("ch = " + ch);
+        System.out.println("answer = " + answer); //Will only print first word specified on console. need nextline().
     }
 }
 
