@@ -18,7 +18,7 @@ public class MistakeNext {
         System.out.println("Please write your last name?");
         lastName = scanMe.nextLine();   //only nextLine can read the enter key
 
-        scanMe.close(); //make sure to close the scanner memory
+        scanMe.close(); //make sure to close the scanner method or else won't disconnect from keyboard
 
         System.out.println(firstName + " " + lastName);
 
