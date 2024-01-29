@@ -22,3 +22,15 @@ public class AgeFullName {
         System.out.println("fullName = " + fullName);
     }
 }
+
+
+            /*
+            Write a progarm taht asks the user to enter his age and full name. Then print the
+            age and full name as shown on the output.
+
+                Example:
+                    Input: 21, Mike Smith
+                    Output:
+                        Age = 21
+                        FullName = Brandon Vernon3
+             */

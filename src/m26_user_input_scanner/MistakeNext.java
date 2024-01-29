@@ -18,7 +18,7 @@ public class MistakeNext {
         System.out.println("Please write your last name?");
         lastName = scanMe.nextLine();   //only nextLine can read the enter key
 
-        scanMe.close();
+        scanMe.close(); //make sure to close the scanner memory
 
         System.out.println(firstName + " " + lastName);
 
@@ -26,3 +26,17 @@ public class MistakeNext {
 }                   //if both nextLine() used in both statements then don't have to admit
                     //scanMe.nextLine();
 
+                    /*
+                    This code snippet is supposed to get the first name and last name of the user.
+                    It only takes the first name. What needs to be changed in the code to get both
+                    first name and last name?
+
+
+                            Scanner scanMe = new Scanner(System.in);
+                            String firstName, lastName;
+                            System.out.println("Please write your name?");
+                            firstName = scanMe.next();
+                            System.out.println("Please write your last name?");
+                            lastName = scanMe.nextLine();
+                            System.out.println(firstName + " " + lastName);
+                     */
