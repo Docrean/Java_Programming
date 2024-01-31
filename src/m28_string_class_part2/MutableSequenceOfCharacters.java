@@ -9,7 +9,7 @@ public class MutableSequenceOfCharacters {
 
 
         stringBuilder.append(20); //adds item after ^ Java
-                                  //don't reassign as zStringBuilder is MUTABLE
+                                  //don't reassign as StringBuilder is MUTABLE
 
         System.out.println(stringBuilder);
 

@@ -9,13 +9,14 @@ public class EqualMethodVsEqualsOperator {
             String str1 = "Java", //only one string object go into the string pool (shared by str1/str2
                     str2 = "Java";
 
-            System.out.println(str1 == str2); //same object wil return true
+            System.out.println(str1 == str2); //referencing same object will return true in this case since both same
             System.out.println(str1.equals(str2));  //checking if str1 and str2 have same characters in the same order
                                                     //if want to compare if both strings have same text or not use equals method
 
             String str3 = new String("Java");
             String str4 = new String("Java");
 
+            boolean compare = str3 == str4;
             System.out.println(str3 == str4); //same object? false since each different memory allocations in heap outside string pool
             System.out.println(str3.equals(str4)); //true since same characters in same exact order
 
