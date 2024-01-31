@@ -10,6 +10,11 @@ public class KeywordSearch {
         boolean r = containsKeyword(text, keyword);
 
         System.out.println(r);
+
+        String result = "    "; //false if at least one space. true if no space "" and empty.
+
+        System.out.println(result.isEmpty()); //false
+        System.out.println(result.isBlank()); //true
     }
     public static boolean containsKeyword(String text, String keyword) {
         text = text.toLowerCase(); //reset the variable text if string text is UPPER CASE now converted to lower
