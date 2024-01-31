@@ -17,7 +17,11 @@ public class ReplaceTrim {
 
         System.out.println(str);
 
-        String = "          Cydeo School                "; //Use trim for white
+        String s = "          Cydeo School                "; //Use trim for white
+
+        s = s.trim(); //Cydeo School(need to assign variable back or else will still print original with white spaces
+
+        System.out.println(s);
 
 
     }
