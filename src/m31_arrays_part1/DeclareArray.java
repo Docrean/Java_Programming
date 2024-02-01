@@ -13,18 +13,34 @@ public class DeclareArray {
                                 //Array size is FIXED.
                                 //Default value of int is 0, so [4] 0's are specified.
 
-        System.out.println(scores); //Why hashcode prints when passing an object in the print statement?
+        scores[0] = 85;
+        scores[1] = 70;
+        scores[2] = 95;
+        scores[3] = 90;
+
+       // System.out.println(scores); //Why hashcode prints when passing an object in the print statement?
         System.out.println(Arrays.toString(scores));//twoString method needs to be executed automatically whenever an object is
         System.out.println(scores[0]);   //How to print first 0. call the array scores with []
                             //returns element at 0 from the array
         System.out.println(scores[1]);
         System.out.println(scores[2]);
         System.out.println(scores[3]);
-        System.out.println(scores[4]); //compiler error. only 4 elements in array.
+        //System.out.println(scores[4]); //compiler error. only 4 elements in array.
+
                                         // passed in the print statement. need to call the twoString with Array as its not
                                         //passed automatically.
                                         //CALL THE toSTRING to print the ARRAY OBJECT
                                     //The arrays class included toString() method that converts an array into a string
                                         //representation.
+
+
+        System.out.println("----------------------------------------");
+
+        String[] names = new String[5]; //will return 5 nulls as no names given to variable
+
+        System.out.println( Arrays.toString(names));
+
+
+
     }
 }
