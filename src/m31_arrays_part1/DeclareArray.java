@@ -36,11 +36,16 @@ public class DeclareArray {
 
         System.out.println("----------------------------------------");
 
-        String[] names = new String[5]; //will return 5 nulls as no names given to variable
+       // String[] names = new String[5]; //will return 5 nulls as no names given to variable
+                                        //only use this way of declaring when not knowing the elements
+        String[] names = {"Java", "Python", "C#", "Ruby", "C++"}; //use {} if exact elements are known.
+                        //curly brace initiation(set to 5 string elements)
 
         System.out.println( Arrays.toString(names));
 
-
+        /*int[] numbers;
+        numbers = {10, 20, 30, 40}; This won't work has to be within same line as one statement
+        */
 
     }
 }
