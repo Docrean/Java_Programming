@@ -4,12 +4,12 @@ public class EachCharacter {
 
     public static void main(String[] args) {
 
-        eachCharacter("ABCD");
+        eachCharacter("AB");
     }
 
     public static void eachCharacter(String str){
 
-        if(str == null || str.length() == 0){
+        if(str == null || str.length() == 0){ //logical or as True which prints err message
             System.err.println("The text can not be null or empty");
             return; //exits the method
         }

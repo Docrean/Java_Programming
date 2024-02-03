@@ -13,8 +13,8 @@ public class EqualMethodVsEqualsOperator {
             System.out.println(str1.equals(str2));  //checking if str1 and str2 have same characters in the same order
                                                     //if want to compare if both strings have same text or not use equals method
 
-            String str3 = new String("Java");
-            String str4 = new String("Java");
+            String str3 = new String("Java"); //str3 new allocated outside the pool in the heap
+            String str4 = new String("Java"); //str4 same
 
             boolean compare = str3 == str4;
             System.out.println(str3 == str4); //same object? false since each different memory allocations in heap outside string pool
