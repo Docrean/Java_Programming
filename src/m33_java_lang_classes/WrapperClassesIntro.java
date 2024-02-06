@@ -11,6 +11,6 @@ public class WrapperClassesIntro {
        Integer num1 = Integer.valueOf(1234);
         System.out.println(num1 + 1); //1235
 
-        Integer.valueOf("25"); //construct an integer out of this string
+        Integer.valueOf("25"); //constructs an integer out of this string
     }
 }
