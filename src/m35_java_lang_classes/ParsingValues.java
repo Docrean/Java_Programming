@@ -27,7 +27,7 @@ public class ParsingValues {
         //convert to a prim data type using parse method from the double wrapper class
         //convert to a wrapper class using valueof method
         System.out.println(s + 1); //prints 20.51 original string value and concat 1
-        System.out.println(nuPasm6 + 1);//prints 21.5 parsing string "20.5"
+        System.out.println(num6 + 1);//prints 21.5 parsing string "20.5"
 
     }
 }
