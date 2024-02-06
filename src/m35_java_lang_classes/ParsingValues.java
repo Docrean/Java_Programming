@@ -29,5 +29,16 @@ public class ParsingValues {
         System.out.println(s + 1); //prints 20.51 original string value and concat 1
         System.out.println(num6 + 1);//prints 21.5 parsing string "20.5"
 
+        //double num4 = Double.valueOf(s); //.valueof wrapper method returns double object not double primitive
+                                          //Assign same type Double with string variable so no AutoBoxing occurs.
+                                          //double object "Double.valueof(s) now stored/converted into the primitive //unboxing
+                                          //Use Double as wrapper class to prevent unboxing Double wrapper to prim convert
+
+        Double num4 = Double.valueOf(s); //Wrapper class double to get the primitive from original String
+        System.out.println(num4 + 3);//num4 returns primitive as 20.5
+
+        //Use parse method to get the primitive value
+
+
     }
 }
