@@ -32,9 +32,9 @@ public class TwoDimensionalArrays {
 
         System.out.println("---------------------");
             //instantiate an array with 2d curly braces
-        //index[]:                0               1              2
-        int[][] array2d = {{10, 22, 32},{23, 28, 33, 35, 28}, {17, 7}};
-        //elements[][]:     0    1   2    0   1   2   3   4    0   1
+        //index[]:                0               1                  2
+        int[][] array2d = {{10, 22, 32},{23, 28, 33, 35, 28}, {17, 7, 23, 45}};
+        //elements[][]:     0    1   2    0   1   2   3   4    0   1  2   3
         System.out.println(array2d.length);
 
         System.out.println(Arrays.deepToString(array2d));
