@@ -31,6 +31,7 @@ public class PassingObjectsToMethod { //can create multiple classes in a file bu
                                           //Answer: the changeApple(apple1) method changed the value of variable color
                                          //of the apple object. Since only one new Apple(); object created in the heap, and
                                          //the object is referenced by the Apple apple1 reference variable, which is also referenced
+
                                          //by the Parameter variable changeApple(Apple apple) below because the parameter variable
                                          //contains the address of the new Apple(); object as well.
                                          //Whenever the color is called from the parameter variable below (apple.color = "white"), it will call the instance variable
