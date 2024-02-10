@@ -8,7 +8,7 @@ class Apple{ //class created within file PassingObjectsToMethod
 }                           //CONSTRUCTOR will be constructed by default since not made manually.
 
 
-public class PassingObjectsToMethod { //can create multiple classes in a file but can ONLY HAVE ONE PUBLIC CLASS
+public class PassingObjectsToMethod { //capable to create multiple classes in a file but can ONLY HAVE ONE PUBLIC CLASS
                                       //THAT MUST MATCH THE FILE NAME.
     //create custom method within this class and want any new object created within this custom class to work with any
     //object of the Apple class. To be able to call that method within the body of the main method, MAKE THE CUSOME METHOD
