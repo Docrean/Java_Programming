@@ -28,6 +28,11 @@ public class StudentClient {
 
         System.out.println(student3);
 
+        //Constructor call this time can pass 4 variables as 4th chainged constructor in Student.java permits
+        Student student4 = new Student("Brandon", 35, "Male", 3.5);
+        System.out.println(student4); //regenerate the toString to include gender and gpa
+
+
     }
 
 }

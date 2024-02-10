@@ -13,35 +13,26 @@ public class Student { //custom class Student
     }
                     //2 constructors = 2 options when creating the student object
 
-             //What about creating student object using name of student with 1 arg constructor without setting the age?
-            //will need to use another constructor.
-            //USE GENERATE then click just the String WITHOUT the age.
-    @Override
-    public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
-
     public Student(String name) {
         this.name = name;
     }
 
     public Student(String name, int age){ //assign this constructor argument for the instance variable public string name
-        this(name); //CHAINED                 //in this body.
+        this(name); //CHAINED ^                //in this body.
         this.age = age;
     }
 
     public Student(String name, int age, String gender){
-        this(name, age); //since instance variable name already in previous constructor just call it here
+        this(name, age); //CHAINED ^ //since instance variable name already in previous constructor just call it here
         this.gender = gender;
     }
 
     public Student(String name, int age, String gender, double gpa) {
-        this(name, age, gender); //Use ctrl + space to get menu then click all 3 instance variables to be constructor chained here
+        this(name, age, gender); //CHAINED ^ //Use ctrl + space to get menu then click all 3 instance variables to be constructor chained here
         this.gpa = gpa;
     }
+            //ONLY CALL ONE CONSTRUCTOR PER CONSTRUCTOR IN A CONSTRUCTORS BODY AT A TIME
+            //CAN ONLY PLACE ONE this call in a IN THE BEGINNING OF A CONSTRUCTORS BODY
 
               //need to assign the parameter variable String name to the instance variable String name^
                                    //use .this keyword ^
@@ -57,8 +48,17 @@ public class Student { //custom class Student
                                     //this(name) in the 3rd constructor now Chained to the 2nd constructor.
 
 
-
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", gpa=" + gpa +
+                '}';
     }
+}
 
-}           //Alt Insert for shortcut to create constructor
+
+
+           //Alt Insert for shortcut to create constructor
