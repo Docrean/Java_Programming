@@ -5,6 +5,27 @@ public class Student { //custom class Student
     public String name; //instance variables name and age declared
     public int age;
 
+    public Student(){ //can set default name and age with this no arg constructor
+    name = "Billy";
+    age = 14; //becomes default value for whenever the instance variable age is called from student class object
+    }
+                    //2 constructors = 2 options when creating the student object
+
+             //What about creating student object using name of student with 1 arg constructor without setting the age?
+            //will need to use another constructor.
+            //USE GENERATE then click just the String WITHOUT the age.
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+    public Student(String name) {
+        this.name = name;
+    }
+
     public Student(String name, int age){ //assign this constructor argument for the instance variable public string name
         this.name = name;         //in this body.
         this.age = age;            //need to assign the parameter variable String name to the instance variable String name^
@@ -17,6 +38,8 @@ public class Student { //custom class Student
                                     //provide the student1.age/.name code fragments in StudentClient.java to access the
                                     //Student.java instance variables.
                                     //Provide the 2 arguments(name and age) to the new Student() object in StudentClient.java
+
+
     }
 
-}
+}           //Alt Insert for shortcut to create constructor
