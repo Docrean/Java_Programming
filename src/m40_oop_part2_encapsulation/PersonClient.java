@@ -9,9 +9,15 @@ public class PersonClient { //<--this class can access the public string/int in 
         //System.out.println(person1.name);
 
         //System.out.println(person1.name); //compiler error due to the private access modifier in Person.java
-        System.out.println(person1.getName()); //use the getter
-
-
+        person1.setName("Brandon");
+        person1.setAge(35);
+        //What if the string field is "" || "null" || "   " -->use an if statement in the setter calls body in Person.java
+        //and include an err println with message "Invalid input/data for the name: " + name
+        //to make sure it does not apple to the this.name call then System.exit on next line
+        System.out.println(person1.getName()); //use the getter to read person1 outside the private instance variable name in Person.java class
+                                            //will return null since String name not set in Person.java
+        System.out.println(person1.getAge());
+            //What if want to set some conditions for age? As in, only positive numbers?
 
     }
 }
