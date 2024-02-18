@@ -92,4 +92,6 @@ public class Animal { //parent class of dog, cat or any other animal classes so 
 
         //This class contains 5 fields and 3 methods.
 
-        //Next create the subclass of the animal class. yyyyyy
+        //Next create the subclass of the animal class.
+
+        //Updated properly.
