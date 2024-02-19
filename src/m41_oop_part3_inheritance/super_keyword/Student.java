@@ -20,6 +20,10 @@ public class Student extends Person {
             //Student.java constructor call sets the name, age, and gender of the student.
 }
 
+            //this.eat() or super.eat(): can use this. or super. to call the parent classes eat() method
+            //System.out.println(super.age); can use super. to call the parent class variables
+            //System.out.println(super.isHuman); can use super. to call static(since shared by all objects) variables of parent class
+
             //CONSTRUCTOR DETERMINES HOW ONE CAN CREATE THE OBJECT.
 
             //after adding the unique variables of this child class (studentID and schoolName in this case), can use
