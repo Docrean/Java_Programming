@@ -5,18 +5,32 @@ public class Student extends Person {
     public String schoolName; //make schoolName as instance since is different between students
     public String studentID;
 
-    //creat constructor from parent class constructor
-    //use super keyword to to do.
+    public Student(){ //no argument constructor using super keyword to call name, age, gender from parent class
+        super("Unknown", 16, "Male");
+    }
+        //Two constructors with same Class name Student. 1st has no parameters. 2nd has parameters.
+
+        //CONSTRUCTOR CALL HAS TO BE FIRST IN EVERY CONSTRUCTORS BODY.
+        //THIS IS WHY super() CANNOT be used with this();
+
+        //SUPER KEYWORD WITH PARENTHESES IS A MUST TO CALL EVERY SINGLE CHILD CLASS IN ORDER TO CALL THE PARENT CLASS
+        //CONSTRUCTOR.
+
+        //IF THE PARENT CLASS CONSTRUCTOR IS A NO ARG CONSTRUCTOR, THAN WILL HAVE TO MANUALLY GIVE THE SUPER KEYWORD AND
+        //GIVE THE ARGUMENTS
+
+    //create constructor from parent class constructor
+    //use super keyword to do.
                                     //pass the schoolName and studentID into the constructor
                                     //use the .this keyword AFTER SUPER CONSTRUCTOR CALL
                                     //3 instances now set through the constructor call from Person.java
                                     //2 instances set through the this. (since studentID/schoolName called within Student subclass.)
     public Student(String name, int age, String gender, String schoolName, String studentID) { //constructor name always has to be the same as the class name
-        super(name, age, gender); //will give compile error without super keyword to call the parent class constructor
+        super(name, age, gender); //will give compile error without the super keyword to call the parent class constructor
         this.schoolName = schoolName; //3 parameters in the Person.java class constructor. need to pass them here
         this.studentID = studentID;//super keyword is calling the Person.java constructor which assigns the 3 given arguments to the instance variables
     }        //SO THE INSTANCE VARIABLES DON'T HAVE TO BE REPEATED IN THE CHILD CLASS.
-            //Person.java constructor variables name, age, gender are constructor called in Student.java
+            //Person.java constructor variables name, age, and gender are constructor called in Student.java
             //Student.java constructor call sets the name, age, and gender of the student.
 }
 
