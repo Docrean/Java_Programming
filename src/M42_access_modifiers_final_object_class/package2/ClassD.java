@@ -8,8 +8,8 @@ public class ClassD extends ClassA {
 
         System.out.println(ClassA.a); //within same as ClassA
         System.out.println(ClassA.b); //not a subclass. What if make ClassD as subclass of ClassA(use extends)-->Good.
-        System.out.println(ClassA.c);
-        System.out.println(ClassA.d);
+        //System.out.println(ClassA.c);
+        //System.out.println(ClassA.d);
     }
 }
 
