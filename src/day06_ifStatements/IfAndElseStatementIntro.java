@@ -19,7 +19,7 @@ public class IfAndElseStatementIntro {
 
         if (age >= 21) {
             System.out.println("Eligible");
-        } else { // otherwise
+        } else {    // otherwise
             System.out.println("Not Eligible");
         }
 

@@ -46,7 +46,7 @@ public class ShorthandOperators {
 
 
                     /*
-                    if operands have diff data types, result is auto casted to the type of the variable on
+                    if operands have diff data types, result is auto-casted to the type of the variable on
                     left-hand side of the assigment. shorthand is combo of operators.
                      */
 

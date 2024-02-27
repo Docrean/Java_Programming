@@ -1,6 +1,6 @@
 package m17_loops_part2;
 
-public class ForLoopRules {
+public class    ForLoopRules {
 
     public static void main(String[] args) {
 
@@ -11,8 +11,9 @@ public class ForLoopRules {
         //even with two semicolons given
 
             1st example
-        for(;;) {
-            System.out.println("Cydeo");
+
+        for (int i = 0; i > -1; i++) {
+             System.out.println("Cydeo");
         }
         */
           /*
@@ -25,9 +26,7 @@ public class ForLoopRules {
             //by 1 by every loop cycle above the boolean condition i > -1, the loop will print
             //indefinitely. In this case "cydeo" will be printed indefinitely.
 
-            2nd example
-        for (int i = 0; i > -1; i++) {
-             System.out.println("Cydeo");
+
         }
         */
 
