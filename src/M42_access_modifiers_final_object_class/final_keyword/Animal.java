@@ -19,8 +19,15 @@ public class Animal { //if put final keyword in class header CANNOT BE EXTENDED 
     //naming conventions for static finals is SCREAMING UPPERCASE...ALL UPPERCASE.
     //ex: create a planet static keyword that is unchangeable for ALL THE ANIMALS.
 
-    public final static String PLANET = "EARTH"; //include final so this keyword is not changeable
+    public final static String PLANET; //include final so this keyword is not changeable
         //reason for static is only need ONE COPY OF
+        //EARTH valueis common for allanimal objects..UNCHANGEABLE WITH FINAL KEYWORD
+
+        //Can initialize variables immediately or use the static block to initialize static variables
+
+    static{
+        PLANET = "Earth";
+    }
 
     public Animal(String name, String breed, String gender, int age) {
         this.name = name;
@@ -30,7 +37,7 @@ public class Animal { //if put final keyword in class header CANNOT BE EXTENDED 
     }
 
     @Override
-    public String toString() {      //want to display the class name besides any name so when sub-classes are inherited will also get the class name
+    public final String toString() {      //want to display the class name besides any name so when sub-classes are inherited will also get the class name
         return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
@@ -38,7 +45,19 @@ public class Animal { //if put final keyword in class header CANNOT BE EXTENDED 
                 ", age=" + age +
                 '}';
     }
+
+    public final void drink(){ //use final so can't be overridden. if us static than can't inherit name. will give compiler
+        System.out.println(name + "is drinking water"); //how to make this implementation the same for all animal sub-classes?
+    }
+
+
 }
     //now that animal class is inherited to other classes...all variables, methods, are inherited as it is...now create the first subclass of animal
     //and name it Dog.
     //Animal class is declared as final....CANNOT EXTEND TO SUBCLASS--NO DEFAULT CONSTRUCTOR SINCE FINAL...NO INHERITANCE ALLOWED.
+
+
+    //PUT FINAL KEYWORD IN METHOD HEADER ONLY IF DON'T WANT THE IMPLEMENTATION OF THAT METHOD TO BE CHANGED. WILL PREVENT
+    //METHOD OVERRIDING.....METHOD OVERRIDING IS THE PRINCIPLE OF GIVING DIFFERENT IMPLEMENTATIONS TO THE METHOD.
+
+    //the toString and drink methods are inherited to the dog class BUT WILL NEVER BE OVERRIDDEN DUE TO FINAL KEYWORD
