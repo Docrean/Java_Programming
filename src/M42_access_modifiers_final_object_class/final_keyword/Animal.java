@@ -16,6 +16,11 @@ public class Animal { //if put final keyword in class header CANNOT BE EXTENDED 
                                 //created AS SOON AS THE OBJECT IS CREATED THE INSTANCE VARIABLES BECOMES SET....so when
                                 //called...can use them now.
 
+    //naming conventions for static finals is SCREAMING UPPERCASE...ALL UPPERCASE.
+    //ex: create a planet static keyword that is unchangeable for ALL THE ANIMALS.
+
+    public final static String PLANET = "EARTH"; //include final so this keyword is not changeable
+        //reason for static is only need ONE COPY OF
 
     public Animal(String name, String breed, String gender, int age) {
         this.name = name;
