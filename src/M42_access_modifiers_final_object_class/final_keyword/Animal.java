@@ -23,4 +23,17 @@ public class Animal { //if put final keyword in class header CANNOT BE EXTENDED 
         this.gender = gender;
         this.age = age;
     }
+
+    @Override
+    public String toString() {      //want to display the class name besides any name so when sub-classes are inherited will also get the class name
+        return getClass().getSimpleName() + "{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
+    //now that animal class is inherited to other classes...all variables, methods, are inherited as it is...now create the first subclass of animal
+    //and name it Dog.
+    //Animal class is declared as final....CANNOT EXTEND TO SUBCLASS--NO DEFAULT CONSTRUCTOR SINCE FINAL...NO INHERITANCE ALLOWED.
