@@ -27,7 +27,7 @@ class Child extends Parent{ //declare the staticMethod() in the child class(acce
 
                             //Since defining staticMethod()(is the method signature of its parent class public static void staticMethod(),
                             //when the parent class method is inherited to the child class, it will be hidden.
-                            //So now, the child class can be re-written as "Child class' static method".
+                            //So now, the child class can be re-written as "Child class' static method" without inheritance conflict.
 
     public static void staticMethod(){ //this is the static method defined in the child class.
                                         //REMOVING THE STATIC KEYWORD = METHOD OVERRIDING
@@ -43,6 +43,11 @@ public class HidingFields { //concept of hiding fields is similar to method hidi
             Parent.staticMethod();
             Child.staticMethod(); //Due to method hiding, when staticMethod() is called from the child class, we get
                                     //the new implementation "Child class' static method.
+
+            //this static int variable a can be called from the parent and child class
+
+        System.out.println(Parent.a);
+        System.out.println(Child.a);
     }
 
 
