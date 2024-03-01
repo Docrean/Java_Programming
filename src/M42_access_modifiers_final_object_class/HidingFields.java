@@ -6,7 +6,13 @@ package M42_access_modifiers_final_object_class;
         //2. give example of method hiding first...CREATE STATIC METHOD FIRST
 class Parent{
 
-    public static void staticMethod(){
+    //What about the fields? Suppose we create a static int variable in the static class...
+
+            public static int a = 100; //this static int variable is now inherited to the child subclass..which means..
+                                       //this static int variable can be called from the parent and child class
+
+
+    public static void staticMethod(){ //REMOVING THE STATIC KEYWORD = METHOD OVERRIDING
         System.out.println("Parent class' static method"); //when this method is inserted to the child class, it will be
                                                             //inherited as is. CANNOT OVERRIDE STATIC METHODS.
     }
@@ -24,6 +30,7 @@ class Child extends Parent{ //declare the staticMethod() in the child class(acce
                             //So now, the child class can be re-written as "Child class' static method".
 
     public static void staticMethod(){ //this is the static method defined in the child class.
+                                        //REMOVING THE STATIC KEYWORD = METHOD OVERRIDING
         System.out.println("Child class' static method");
     }
 
@@ -31,7 +38,7 @@ class Child extends Parent{ //declare the staticMethod() in the child class(acce
 
 public class HidingFields { //concept of hiding fields is similar to method hiding
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //need the main method to run code(define within the parent class)
 
             Parent.staticMethod();
             Child.staticMethod(); //Due to method hiding, when staticMethod() is called from the child class, we get
