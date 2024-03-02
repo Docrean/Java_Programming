@@ -1,6 +1,6 @@
 package day01_IntroToProgramming;
 
-public class PrintExecutionJava {
+public class PrintExecution {
 
     public static void main(String[] args) {
 
