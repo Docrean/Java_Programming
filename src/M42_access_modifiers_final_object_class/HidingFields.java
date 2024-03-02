@@ -71,6 +71,6 @@ public class HidingFields { //concept of hiding fields is similar to method hidi
     }
 
 
-        //This is field hiding: The child class calls the parent class fields in which parent and child will
+        //This is field hiding: The child class calls the parent class fields in which parent and child will.
 
 }
