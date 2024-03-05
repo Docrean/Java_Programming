@@ -1,6 +1,6 @@
 package m43_oop_part4_abstraction;
 
-public abstract class Shape { //this will be the base class for all shapes. must contain common features all of subclasses.
+public abstract class Shape { //this will be the parent class for all shapes. must contain common features all of subclasses.
 
     public final String name = getClass().getSimpleName(); //instance variable name. name always set to class name. class name shape, then shape. if circle, then circle
                         //can set the name right away to get the simple class name.
@@ -14,6 +14,8 @@ public abstract class Shape { //this will be the base class for all shapes. must
                                     //NEED TO MAKE IT ABSTRACT IN JAVA...include the abstract keyword.
                                     //ABSTRACT CANNOT BE CREATED IN A REGULAR CLASS..MUST BE IN AN ABSTRACT CLASS OR INTERFACE.
                                     //MUST INCLUDE ABSTRACT WITHIN THE CLASS TO MAKE ABSTRACT CLASS.
+                                    //By making the class abstract we only then need to focus on what is needed for ALL
+                                    //CHILD CLASSES.
                                 //If not applying abstraction, need to give an implementation to this method.
                                 //But is there a common formula to calculate the area of all the shapes regardless if
                                 //shape is square, circle or rectangle? is there a common formula to calculate the area
@@ -25,6 +27,8 @@ public abstract class Shape { //this will be the base class for all shapes. must
                                 //is done and how to complete the functionality? If all these details are focused on, we
                                 //cannot complete the parent. INSTEAD...FOCUS ON WHAT IS NEEDED--calculate area method
                                 //and the method that is needed for all the subclasses.
+
+                                //after this create now the subclasses of the shape.
 
 
 }
