@@ -31,4 +31,17 @@ public abstract class Shape { //this will be the parent class for all shapes. mu
                                 //after this create now the subclasses of the shape.
 
 
+    @Override
+    public String toString() { //by default it will only include the name of the shape (return "Shape"{")
+        return name + "{" +       //we need to print the area of circle so replace "Shape with name(which is the circle object)
+                "area='" + calculate_area() + '\'' + //then replace "name='" with "area='" and then replace name concated to
+                '}';                     //to calculate_area() object to print the area numerical values.
+
+    }                   //this toString method is inherited as is to the circle class. So printing the ShapeClients object
+                        //again will print the circle area as is...although still did not include the radius still...since in the
+                        //shape class we do not have a radius field included, however, can still override the toString method
+                        //in the Circle class if you generate the toString method in the Circle class it will allow you to
+                        //include the radius. Once the toString is made in the Circle class for radius, can then cancat
+                        //the area object. After doing this, once again running ShapeCLients will provide the circle radius
+                        //and area.
 }
