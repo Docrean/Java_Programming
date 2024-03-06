@@ -17,5 +17,6 @@ public class ShapeClients { //in this client we are to create the object of abst
         System.out.println(circle); //generate hash without toString. use lombok library
 
 
+        
     }
 }
