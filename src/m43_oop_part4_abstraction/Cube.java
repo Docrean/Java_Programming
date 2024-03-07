@@ -2,6 +2,7 @@ package m43_oop_part4_abstraction;
 
 public class Cube extends Shape implements Volume { //have to still override the abstract methods of the interface
                                   //generate the override after implementing the Volume interface
+                                  //Volume interface can be inherited to other shape classes via the volume method.
     //before extending the cube from the shape class, first include common variables of the cube.
     //every single cube has a side.
     //create an instance variable side for the cube.
@@ -19,8 +20,8 @@ public class Cube extends Shape implements Volume { //have to still override the
     }            //Give equation to calculate_area() method in the cube class.
 
     @Override
-    public double Volume() {
-        return Math.pow(side, 3); //java equation to calculate volume of cube.
+    public double volume() {
+        return Math.pow(side, 3);
     }
     //Cube calculation in Java is 6 * Math.pow(sides, 2)
                 //Since cube is multidimensional, we need to calculate Volume.
